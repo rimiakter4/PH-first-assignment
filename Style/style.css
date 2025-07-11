@@ -1,3 +1,6 @@
+body{
+    margin: 0px;
+}
 .raleway-normal{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -17,6 +20,7 @@ header{
     display: flex;
     justify-content: space-between;
 }
+
 .btn{
     border-radius: 10px;
     background-color: #4E47FF;
@@ -24,7 +28,9 @@ header{
     border: none;
     width: 100px;
     height: 30px;
+    cursor: pointer;
 }
+
 .banner-section{       
 text-align: center;margin-top: 90px;
 }
@@ -36,4 +42,32 @@ span{
 }
 .btn:hover{
     background-color: goldenrod
+}
+/* MAIN SECTION */
+section{
+    margin-bottom: 116px;
+}
+
+.action-section{
+    display: flex;
+    align-items: center;
+    gap:130px;
+       max-width:700px;
+    margin: 0 auto;
+    height: 200px;
+}.img-1{
+    border-radius: 18px;
+    width:250px;
+    height: 200px;
+}
+.btn-main{
+    width: 150px;
+    height: 35px;
+      border-radius: 10px;
+    background-color: #4E47FF;
+    color: #FFFFFF;border: none;
+    cursor: pointer;
+}
+.btn-main:hover{
+    background-color: goldenrod;
 }
