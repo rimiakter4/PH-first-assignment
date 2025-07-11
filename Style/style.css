@@ -71,6 +71,7 @@ span{
     background-image: linear-gradient(to top,#D6DDED ,  white );
 }
 section{
+    
     margin-bottom: 116px;
 }
 
@@ -133,6 +134,74 @@ section{
       color: #777777;
   
 }
+/* Review section */
+.review-section{ 
+    
+    max-width: 760px;
+    height: 180px;
+    margin: 0 auto;
+    margin-top: 100px;
+    /* background-color: #FFFFFF; */
+    line-height: 10px;
+    text-align: center;padding: 30px;
+    border-radius: 24px;
+}
+.card-container{
+
+display: flex;
+gap:10px;
+margin-top: 20px;
+padding: 20px;
+
+
+
+
+
+
+}
+.review-heading{
+    font-size: 15px;
+    color: #1E1E1E;
+}
+.review-title{
+    font-size: 27px;
+    font-weight: bold;
+}
+.customer-name{
+    font-size: 10px;
+    color: #757575
+}
+.customer img{
+    border-radius: 50%
+}
+.card{
+    width: 250px;
+    height: 110px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    text-align: left;
+    padding: 20px
+    /* background-image: url(../image/icon-star.png); */
+     
+
+
+}
+      
+
+
+.customer-time{
+    font-size: 8px;
+    color: #B3B3B3;
+}
+.customer{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    line-height:0px;
+
+}
+
+
 /* touch section */
 .touch-heading{
     font-size: 50px;
@@ -182,19 +251,20 @@ input[type="email"],input[type="text"],textarea{
   align-items: center;
   gap: 25px;           
   list-style: none;       
-
 }
 ul li {
 list-style: none;
-
 }
 ul a{
     text-decoration: none;
     color: #8987A1;
-    font-size: 10px
+    font-size: 10px;
+ 
 }
-.footer{
-    
+ul a:hover{
+    background-color:rgb(32, 31, 31);
+}
+.footer{ 
     align-items: center;
 
     text-align: center;
