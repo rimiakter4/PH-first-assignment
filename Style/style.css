@@ -29,7 +29,7 @@ header{
     color: #FFFFFF;
     border: none;
     width: 100px;
-    height: 30px;
+    height: 32px;
     cursor: pointer;
     padding: 10px;
     font-size: 12px;
@@ -41,9 +41,9 @@ header{
     color: #FFFFFF;
     border: none;
     width: 80px;
-    height: 30px;
+    height: 32px;
     cursor: pointer;
-    padding: 10px;
+    padding: 9px;
     font-size: 12px;
     font-weight:500;
 
@@ -82,9 +82,9 @@ section{
     margin: 0 auto;
     height: 200px;
 }.img-1{
-    border-radius: 18px;
-    width:250px;
-    height: 200px;
+    border-radius: 40px;
+    width:270px;
+    height: 220px;
 }.font-size{
     font-size: 15px;
       color: #777777
@@ -101,8 +101,8 @@ section{
 }
 .users{
    
-    max-width: 650px;
-    height: 150px;
+    max-width: 670px;
+    height: 180px;
     margin: 0 auto;
     margin-bottom: 116px;
     background-color: #e3e4ff;
@@ -138,7 +138,8 @@ section{
     max-width: 760px;
     height: 180px;
     margin: 0 auto;
-    margin-top: 100px;
+    /* margin-top: 100px; */
+    margin-bottom: 170px;
     line-height: 10px;
     text-align: center;padding: 30px;
     border-radius: 24px;
@@ -149,13 +150,14 @@ section{
 }
 .card-container{
 display: flex;
-gap:10px;
+gap:15px;
 margin-top: 20px;
 padding: 20px;
 }
 .review-heading{
     font-size: 15px;
     color: #1E1E1E;
+    
 }
 .review-title{
     font-size: 27px;
@@ -174,7 +176,7 @@ padding: 20px;
     background-color: #ffffff;
     border-radius: 10px;
     text-align: left;
-    padding: 20px
+    padding: 35px
 }   
 .customer-time{
     font-size: 8px;
@@ -188,11 +190,12 @@ padding: 20px;
 }
 /* improve-section */
 .improve-section{
+    border-radius: 14px;
      
     max-width: 700px;
-    height: 500px;
+    height: 480px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-bottom: 100px;
       text-align: center;padding: 30px;
     background-color: white;
 
@@ -205,9 +208,11 @@ padding: 20px;
 
 /* touch section */
 .touch-heading{
-    font-size: 50px;
+    font-size: 60px;
     font-weight: bold;
 }
+
+
 .touch{
     display: flex;
     justify-content:space-between;
@@ -215,6 +220,8 @@ padding: 20px;
     max-width: 700px;
     height: 300px;
     padding: 100px;
+     
+
 }
 input[type="email"],input[type="text"],textarea{
     border-radius: 5px;
@@ -269,6 +276,6 @@ ul a:hover{
 
     text-align: center;
     line-height: 10px;
-    margin-bottom: 100px;
+    margin-bottom: 60px;
     
 }
