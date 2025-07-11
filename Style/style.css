@@ -61,10 +61,13 @@ span{
     font-weight: bolder;
     font-size: 50px;
 }
-.btn:hover,.btn-1:hover,.btn-2:hover{
+.btn:hover,.btn-1:hover,.btn-2:hover,.btn-3:hover{
     background-color: goldenrod
 }
 /* MAIN SECTION */
+.main{
+    background-image: linear-gradient(to top,#D6DDED ,  white );
+}
 section{
     margin-bottom: 116px;
 }
@@ -126,6 +129,45 @@ section{
 .user-description{
     font-size: 10px;
       color: #777777;
-          /* margin-top: 2px; */
   
+}
+/* touch section */
+.touch-heading{
+    font-size: 50px;
+    font-weight: bold;
+}
+.touch{
+    display: flex;
+    justify-content:space-between;
+    margin: 0 auto;
+    max-width: 700px;
+    height: 300px;
+    padding: 100px;
+}
+input[type="email"],input[type="text"],textarea{
+    border-radius: 5px;
+     height: 50%;
+        width:  300px;
+        background-color: white;
+        border: none;
+        padding: 13px;
+        display: block;
+        font-size: 10px
+}
+
+
+.form-label{
+    font-size: 10px;
+    font-weight: 600
+
+}
+.btn-3{
+     width: 320px;
+    height: 35px;
+      border-radius: 10px;
+    background-color: #4E47FF;
+    color: #FFFFFF;border: none;
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 600;
 }
