@@ -74,7 +74,6 @@ section{
     
     margin-bottom: 116px;
 }
-
 .action-section{
     display: flex;
     align-items: center;
@@ -136,28 +135,23 @@ section{
 }
 /* Review section */
 .review-section{ 
-    
     max-width: 760px;
     height: 180px;
     margin: 0 auto;
     margin-top: 100px;
-    /* background-color: #FFFFFF; */
     line-height: 10px;
     text-align: center;padding: 30px;
     border-radius: 24px;
 }
+.improve-title{
+    font-size: 30px;
+    font-weight: bold;
+}
 .card-container{
-
 display: flex;
 gap:10px;
 margin-top: 20px;
 padding: 20px;
-
-
-
-
-
-
 }
 .review-heading{
     font-size: 15px;
@@ -181,14 +175,7 @@ padding: 20px;
     border-radius: 10px;
     text-align: left;
     padding: 20px
-    /* background-image: url(../image/icon-star.png); */
-     
-
-
-}
-      
-
-
+}   
 .customer-time{
     font-size: 8px;
     color: #B3B3B3;
@@ -198,9 +185,23 @@ padding: 20px;
     gap: 5px;
     align-items: center;
     line-height:0px;
+}
+/* improve-section */
+.improve-section{
+     
+    max-width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+      text-align: center;padding: 30px;
+    background-color: white;
 
 }
-
+.wc-img{
+    border-radius: 40px;
+    width: 600px;
+    height: 280px;
+}
 
 /* touch section */
 .touch-heading{
@@ -232,8 +233,7 @@ input[type="email"],input[type="text"],textarea{
 
 .form-label{
     font-size: 10px;
-    font-weight: 600
-
+    font-weight: 600;
 }
 .btn-3{
      width: 320px;
